@@ -1,0 +1,71 @@
+/* Common shared style */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* heading related style */
+.title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.sub-title {
+    color: #27272799;
+    opacity: 60%;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+    display: flex;
+    width: 634px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+}
+
+.button {
+    border-radius: 8px;
+    background: #E55473;
+
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.shop {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* header related style */
+.header {
+    background-color: #E554731A;
+    background: opacity 10%;
+    padding: 50px 150px 50px 60px;
+    display: flex;
+
+}
+
+.header-pic {
+    width: 150px;
+    height: 200px;
+    flex-shrink: 0;
+    /* padding: 50px 240px 4017px 1045px; */
+}
